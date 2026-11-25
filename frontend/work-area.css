@@ -15,4 +15,9 @@
 .statline dd { margin: .25rem 0 0; font-size: clamp(1.25rem, 3vw, 2.3rem); font-variant-numeric: tabular-nums; line-height: 1.2; }
 .toolrow { display: flex; flex-wrap: wrap; align-items: end; gap: .65rem; margin: 1.2rem 0; }
 .callout { padding: .8rem 1rem; border-inline-start: 3px solid var(--s-accent); background: var(--s-panel); }
+.version-tabs { margin: .6rem 0 1rem; }
+.version-chip { border: 1px solid var(--s-line); background: var(--s-panel); padding: .35rem .8rem; cursor: pointer; }
+.version-chip.active { border-color: var(--s-accent); font-weight: 700; }
+.corrections { margin-top: 2rem; }
+.correction-form { margin-top: 1.2rem; }
 @media (max-width:767px) { .split { grid-template-columns:minmax(0,1fr); } .intro { margin-bottom:1.2rem; } }
