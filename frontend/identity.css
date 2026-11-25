@@ -1,0 +1,6 @@
+:root { --s-page:oklch(94% .025 178);--s-panel:oklch(97% .018 162);--s-accent:oklch(36% .077 174);--s-ink:oklch(25% .046 184); }
+.transects { display:grid; gap:.65rem; }
+.transect { border-bottom:1px solid var(--s-line); border-inline-start:6px solid var(--s-accent);background:var(--s-panel);padding:.8rem 1rem; display:flex;justify-content:space-between;align-items:center; }
+.chips { display:flex;flex-wrap:wrap;gap:.45rem; }
+aside.sampling { color:var(--s-onaccent);background:var(--s-accent);padding:1.4rem; }
+aside.sampling a {color:inherit}
